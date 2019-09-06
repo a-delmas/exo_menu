@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />        
+    <link rel="stylesheet" href="Cv bis.css" />
+    <title>Paragraphe</title>
+</head>
+<body>
+    <header>
+        <img src="Aurore.jpeg" id="img" alt="Photo d'Aurore" />
+        <br />
+        <h1><em>Curiculum Vitae</em></h1>
+        <br />
+        <ul id="navigation">
+            <li><a href="#Informations Personnelles">Informations Personnelles</a></strong></li>
+            <li><a href="#Parcours Professionnel">Parcours Professionnel</a></strong></li>
+            <li><a href="#Diplômes">Diplômes</a></strong></li>
+            <li><a href="#Compétences Techniques">Compétences Techniques</a></strong></li>
+            <li><a href="#Loisirs">Loisirs</a></strong></li>
+            <li><a href="#Contact">Contact</a></strong></li>
+        </ul>
+        <br />
+    </header>
+            <strong><em><span id="Informations Personnelles" class="links">Informations Personnelles</span></em></strong>
+        <ul class="pas-puces">
+        <br />
+            <li><strong><em class="civil">DELMAS Aurore</em></strong></li>
+            <li><strong class="other">15/11/1989</strong></li>     
+            <li>4 Bis, Rue du Pont Notre Dame</li>
+            <li>48000 <strong class="other">MENDE</strong></li>
+            <li>06-30-91-60-37</li>
+            <li><a href="mailto:aurore.delmas@hotmail.fr">aurore.delmas@hotmail.fr</a></li>
+        </ul>
+        <br />
+            <strong><em><span id="Parcours" class="links">Parcours Professionnel</span></em></strong>
+        <ul class="pas-puces">
+        <br />
+           <li><strong>2015</strong> <em class="stage">Stage</em> au Cabinet Tessier à Mende (48)</li>
+           <li><strong>2014</strong> Assistante Administrative à la Mairie de Mende (48)</li>
+           <li><strong>2012</strong> <em class="stage">Stage</em> au Cabinet Tessier à Mende (48)</li>
+           <li><strong>2011</strong> Assistante Administrative au SIE de Mende (48)</li>
+           <li><strong>2011</strong> Assistante Administrative à la Banque de France de Mende (48)</li>
+           <li><strong>2010</strong> <em class="stage">Stage</em> à Sud Expert 48 à Mende (48)</li>
+           <li><strong>2009</strong> <em class="stage">Stage</em> à l'ALAD de Mende (48)</li>
+        </ul>
+        <br />
+            <strong><em><span id="Diplomes" class="links">Diplômes</span></em></strong>
+        <ul class="pas-puces">
+        <br />
+            <li><strong>2020</strong> Titre Professionnel de Developpeur Web à Codi'N Camp de Mende (48)</li>
+            <li><strong>2015</strong> Titre Professionnel de Gestionaire de Paye <em class="explication">(non obtenu)</em> à l'AFPA de Saint Chély D'Apcher (48)</li>
+            <li><strong>2013</strong> BTS CGO à Lunel (34)</li>
+            <li><strong>2009</strong> BAC STG <em class="explication">option comptabilité</em> à Mende (48)</li>
+        </ul>
+        <br />
+             <strong><em><span id="Competences" class="links">Compétences Techniques</span></em></strong>
+        <ul>
+        <br />
+             <li>HTML</li>
+             <li>CSS</li>
+             <li>Java Script</li>
+             <li>Python</li>
+             <li>SQL</li>
+             <li>PHP</li>
+             <li>Other languages learn during this year</li>
+        </ul>
+        <br />
+            <strong><em><span id="Hobbies" class="links">Loisirs</span></em></strong>
+        <ul> 
+        <br />
+              <li>Musique</li>
+              <li>Cyclisme</li>
+              <li>Suivre plus ou moins tout les sports</li>
+              <li>Jeux de logique</li>
+              <li>Jeux de société</li>
+              <li>Jeux vidéos</li>
+        </ul>
+        <br />
+    <p>
+        <strong><em><span id="Contact" class="links">Contact</span></em></strong>
+            <form method="post" action="traitement.php">
+        <br />
+            <div class="nom">
+                    <p><label for="nom">NOM</label></p>
+                    <input type="text" name="nom" id="nom" required />
+            </div>
+            <div class="prenom">
+                    <p><label for="prenom">Prénom</label></p>
+                    <input type="text" name="prenom" id="prenom" autofocus required />
+            </div>
+            <div class="email">
+                    <p><label for="email">Mail</label></p>
+                    <input type="email" name="email" id="email" autofocus required/>
+            </div>
+            <div  class="tel">
+                    <p><label for="tel">Téléphone</label></p>
+                    <input type="phone" name="tel" id="tel" autofocus required/>
+            </div>
+            <div class="motif">
+                    <p><label for="motif">Motif</label></p>
+                    <select name="motif" id="motif">
+                        <option value="more">Avoir plus de renseignements</option>
+                        <option value="date">Me rencontrer</option>
+                        <option value="other">Autre</option> 
+                    </select>
+            </div>
+            <div class="message">
+                    <p><label for="message">Message</label></p>
+                    <textarea name="message" id="message" rows="1" cols="50">
+                    </textarea>
+            </div>
+                <div class="submit">
+                    <p><input type="submit" value="Envoyer"><p>
+                </div>
+            <div>
+                <div class="asterique">
+                    <p>* champs obligatoires</p>
+                </div>
+            </div></p>
+            </ul>
+        </p>           
+            </form>
+    </p>
+   </body>
+</html>

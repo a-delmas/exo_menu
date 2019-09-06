@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+header {
+    margin: auto;
+}
+body {
+    background-color: coral;
+    font-family: "Times New Roman";
+    width: 75%;
+}
+#Picture {
+    height: 100px;
+    width: 100px;
+    display: inline;
+    vertical-align: middle;
+}
+h1 {
+    text-align: center;
+    color: violet;
+    text-decoration: underline;
+    width: 50%;
+    font-size: 4em;
+    margin: 2em;
+}
+nav, li, h1 {
+    display: inline;
+}
+.Menu {
+    display: inline;
+    font-size: 1.5em;
+    color: indigo; 
+    text-align: center;
+    width: 100%;
+    margin: 2em;
+}
+.Submenu {
+    font-size: 1em;
+    color: aqua;
+    margin: 0;
+    padding: 0;
+}
