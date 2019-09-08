@@ -5,18 +5,38 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
+nav {
+    background-color: yellow;
+    color: white;
+    font-size: 1em;
+    padding-left: 1em;
+}
+.head {
+    display: inline-block;
+    width: 100%;
+    font-size: 1.75em;
+}
+nav li {
+    display: inline-block;
+}
+.links {
+    background-color: aqua;
+    height: 1em;
+    margin: auto;
+}
 header {
     margin: auto;
     text-align: center;
+    width: auto;
 }
 body {
    font-family: "Times New Roman";
-    width: 75%;
+    width: 100%;
     text-align: center;
 }
 #img {
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     display: inline;
     vertical-align: middle;
 }
@@ -29,6 +49,7 @@ strong em {
     text-decoration: underline;
 }
 h1 {
+    background-color: yellowgreen;
     font-size: 3em;
     color: magenta;
     text-decoration: underline;
@@ -60,7 +81,8 @@ strong {
     font-size: 1em;
     height: 3em;
     margin-top: 1em; 
-    width: 98%;
+    width: 90%;
+    display: inline-block;
 }
 .motif {
     font-weight: bold;
@@ -68,15 +90,23 @@ strong {
     color: royalblue;
     height: 3em;
     margin-top: 1em; 
+    width: 100%;
 }
 .message {
     font-weight: bold;
     font-size: 1.5em;
     color: lightsalmon;
-    height: 3em;
-    margin-top: 1em; 
+    height: auto;
+    margin-top: 1em;
+    width: auto;
+}
+.submit {
+    margin-top: auto;
 }
 .asterique {
     color : red;
+}
+.obligatoire {
+     color : red;
 }
 
